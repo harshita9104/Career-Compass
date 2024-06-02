@@ -1,0 +1,5 @@
+google-generativeai
+load_dotenv
+flask
+llama-index
+flask-cors
