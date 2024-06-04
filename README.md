@@ -1,4 +1,4 @@
-# Gyaan Path
+# Career-Compass
 
 This is the only one-stop solution for all the developers to learn, upskill and meet like minded people.
 
@@ -36,8 +36,4 @@ Running Frontend
 bash
 npm run dev
 
-## Authors
 
-- [@okaditya84](https://www.github.com/okaditya84)
-- [@Saurav-Navdhare](https://www.github.com/Saurav-Navdhare)
-- [@khushiy29](https://www.github.com/khushiy29)
