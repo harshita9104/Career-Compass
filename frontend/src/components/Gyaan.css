@@ -1,0 +1,96 @@
+* {
+    background-color: #ffffff;
+    color: black;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+#root{
+background-color: #ffffff;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: center;
+        margin-top: 20px;
+        
+}
+
+#form1,
+#form2 {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #3498db;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+
+}
+
+#form1 form,
+#form2 form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form1 label,
+#form2 label {
+    margin: 10px 0;
+    font-size: 1.2em;
+    width: 200px; /* Set a fixed width for all labels */
+    text-align: left; /* Align labels to the left */
+    background-color: transparent; /* Remove white background */
+    padding: 0; /* Remove padding */
+}
+
+.labell{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#form1 input,
+#form2 input {
+    padding: 10px;
+    margin:10px 10px 15px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #e2e2e2;
+}
+
+#form1 button,
+#form2 button {
+    padding: 10px;
+    border: none;
+    border-color: #3498db;
+    background-color: #fff;
+    border-radius: 5px;
+    
+  
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+
+
+#clearchat {
+    background-color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.shrey {
+    display: flex;
+    /* align-items: ; */
+}
+#save{
+    background-color: #fff;
+}

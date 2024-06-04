@@ -1,0 +1,63 @@
+/* FILEPATH: /C:/Users/yaduk/OneDrive/Desktop/dotslash/DotSlash7/frontend/src/components/navbar.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.navbar {
+  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 80px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.logo {
+    max-height: 40px;
+}
+.link {
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 40px;
+    border-radius: 5px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #3498db; /* Change to the desired hover color */
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #3498db; /* Change to the desired line color */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.content {
+    padding: 80px 20px 20px 20px;
+    background-color: white;
+}
